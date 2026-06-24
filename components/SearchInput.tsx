@@ -23,7 +23,7 @@ export default function SearchInput({
             rounded-full
             bg-white
             px-5
-            py-3
+            py-2
             shadow-md
             border
             ${
@@ -38,6 +38,11 @@ export default function SearchInput({
         type="text"
         value={value}
         onChange={(e) => onChange(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            onSearch();
+          }
+        }}
         placeholder="Nama/NIP/NIDN/NIM"
         className="
           w-full

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function NavBar() {
   return (
-    <header className="bg-linear-to-r from-[#15422D] to-[#47914C] h-16">
-     <div className="h-full flex items-center gap-3 px-4">
+    <header className="bg-[#192123]">
+     <div className="h-full flex items-center gap-3 px-6 py-3">
         <Image
           src="/logousu.png"
           alt="Logo USU"

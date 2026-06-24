@@ -12,13 +12,16 @@ export default function SearchButton({
         cursor-pointer
         w-full
         rounded-full
-        bg-[#15422D]
-        px-6
-        py-3
-        text-white
+        bg-[#ffffff]
+        px-5
+        py-2
+        text-black
+        text-center
         font-medium
         shadow-md
-        hover:bg-[#3d7d41]
+        hover:bg-[#bdbdbd]
+        hover:text-black
+        hover:text-bold
         transition-colors
       "
     >

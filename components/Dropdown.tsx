@@ -45,7 +45,7 @@ useEffect(() => {
   }, []);
 
   return (
-    <div ref={dropdownRef} className="relative w-60">
+    <div ref={dropdownRef} className="relative w-full">
 
     <button
     type="button"
@@ -53,12 +53,13 @@ useEffect(() => {
     className={`
     flex
         items-center
+        cursor-pointer
         justify-between
         w-full
         rounded-full
         bg-white
         px-5
-        py-3
+        py-2
         text-left
         shadow-md
         border
@@ -71,20 +72,32 @@ useEffect(() => {
     >
         
     <span
-        className={
-            value
+      className={`
+        flex-1
+        truncate
+        mr-2
+        ${
+          value
             ? "text-gray-900"
             : "text-gray-500"
         }
-    >{value || placeholder}
+      `}  
+    >
+      {value || placeholder}
         
     </span>
 
-    <ChevronDown 
-        size={18}
-        className="
+    <ChevronDown
+      size={18}
+      className={`
+        shrink-0
         cursor-pointer
-        text-gray-500" 
+        text-gray-500
+        transition-transform
+        duration-300
+        ease-in-out
+        ${isOpen ? "rotate-180" : ""}
+      `}
     />
     </button>
 
