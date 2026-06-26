@@ -6,7 +6,6 @@ import SearchInput from "./SearchInput";
 import SearchButton from "./SearchButton";
 
 import { kategori } from "@/data/kategori";
-import { fakultas } from "@/data/fakultas";
 
 import ResultCard from "./ResultCard";
 import { dummyDirectory } from "@/data/dummyDirectory";
@@ -14,7 +13,6 @@ import { dummyDirectory } from "@/data/dummyDirectory";
 export default function SearchSection() {
 
   const [selectedKategori, setSelectedKategori] = useState("");
-  const [selectedFakultas, setSelectedFakultas] = useState("");
   const [keyword, setKeyword] = useState("");
   const [kategoriError, setKategoriError] = useState("");
   const [keywordError, setKeywordError] = useState("");
@@ -49,9 +47,7 @@ export default function SearchSection() {
       const matchKategori =
         item.kategori === selectedKategori;
 
-      const matchFakultas =
-        !selectedFakultas ||
-        item.fakultas === selectedFakultas;
+      
 
       const matchKeyword =
         item.nama
@@ -62,7 +58,6 @@ export default function SearchSection() {
 
       return (
         matchKategori &&
-        matchFakultas &&
         matchKeyword
       );
     }
@@ -74,7 +69,6 @@ export default function SearchSection() {
 
   console.log({
     kategori: selectedKategori,
-    fakultas: selectedFakultas,
     keyword,
   });
 };
@@ -120,16 +114,9 @@ export default function SearchSection() {
           )}
         </div>
 
-        <div className="col-span-3">
-          <Dropdown
-            placeholder="Fakultas/Unit"
-            options={fakultas}
-            value={selectedFakultas}
-            onSelect={setSelectedFakultas}
-          />
-        </div>
+        
 
-        <div className="col-span-5 flex flex-col">
+        <div className="col-span-7 flex flex-col">
           <SearchInput
             value={keyword}
             onChange={(value) => {
@@ -147,7 +134,7 @@ export default function SearchSection() {
           )}
         </div>
 
-        <div className="col-span-1">
+        <div className="col-span-2">
           <SearchButton
             onClick={handleSearch}
           />
