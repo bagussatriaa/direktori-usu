@@ -28,7 +28,8 @@ const dummyMahasiswa: StudentMember[] = [
     faculty_id: 17,
     faculty_name: "Fakultas Vokasi",
     status: "non_active",
-    photo: "/images/avatar/avatar2.jpg",
+    photo: "/fotoprofile/Mahasiswa1.jpg",
+
   },
 
   {
@@ -43,7 +44,7 @@ const dummyMahasiswa: StudentMember[] = [
     faculty_id: 17,
     faculty_name: "Fakultas Vokasi",
     status: "non_active",
-    photo: "/images/avatar/avatar3.jpg",
+    photo: "/fotoprofile/Mahasiswa1.jpg",
   },
 
   {
@@ -58,7 +59,7 @@ const dummyMahasiswa: StudentMember[] = [
     faculty_id: 17,
     faculty_name: "Fakultas Vokasi",
     status: "non_active",
-    photo: "/images/avatar/avatar4.jpg",
+    photo: "/fotoprofile/Mahasiswa1.jpg",
   },
 
   {
@@ -73,7 +74,7 @@ const dummyMahasiswa: StudentMember[] = [
     faculty_id: 17,
     faculty_name: "Fakultas Vokasi",
     status: "non_active",
-    photo: "/images/avatar/avatar5.jpg",
+    photo: "/fotoprofile/Mahasiswa1.jpg",
   },
 
   {
@@ -88,7 +89,7 @@ const dummyMahasiswa: StudentMember[] = [
     faculty_id: 17,
     faculty_name: "Fakultas Vokasi",
     status: "non_active",
-    photo: "/images/avatar/avatar6.jpg",
+    photo: "/fotoprofile/Mahasiswa1.jpg",
   },
 
   {
@@ -103,7 +104,7 @@ const dummyMahasiswa: StudentMember[] = [
     faculty_id: 17,
     faculty_name: "Fakultas Vokasi",
     status: "non_active",
-    photo: "/images/avatar/avatar7.jpg",
+    photo: "/fotoprofile/Mahasiswa1.jpg",
   },
 
   {
@@ -118,7 +119,7 @@ const dummyMahasiswa: StudentMember[] = [
     faculty_id: 17,
     faculty_name: "Fakultas Vokasi",
     status: "active",
-    photo: "/public/fotoprofile/Mahasiswa1.jpg",
+    photo: "/fotoprofile/Mahasiswa1.jpg",
   },
 ];
 

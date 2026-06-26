@@ -1,23 +1,19 @@
 import ResultCard from "@/components/ResultCard";
-import dummyResultCard from "@/data/dummyResultCard";
+import dummySearchResults from "@/data/dummySearchResults";
 
 export default function SearchResultPage() {
   return (
-    <main>
-
-      <div className="grid grid-cols-4 gap-6">
-
-        {dummyResultCard.map((member) => (
-
-          <ResultCard
+    <main className="p-9">
+      <div className="grid grid-cols-12 gap-6">
+        {dummySearchResults.map((member) => (
+          <div
             key={member.id}
-            member={member}
-          />
-
+            className="col-span-3"
+          >
+            <ResultCard member={member} />
+          </div>
         ))}
-
       </div>
-
     </main>
   );
 }

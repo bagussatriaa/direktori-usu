@@ -25,7 +25,7 @@ const dummyDosen: LecturerStaffMember[] = [
     study_program_id: "441",
     study_program: "Teknologi Informasi",
 
-    photo: "/images/avatar/avatar17.jpg",
+    photo: "/fotoprofile/dosen1.jpg",
 
     address: {
       street: "",
@@ -73,7 +73,8 @@ const dummyDosen: LecturerStaffMember[] = [
     study_program_id: "441",
     study_program: "Ilmu Komputer",
 
-    photo: "/images/avatar/avatar18.jpg",
+    photo: "/fotoprofile/dosen1.jpg",
+
 
     address: {
       street: "",
@@ -121,7 +122,7 @@ const dummyDosen: LecturerStaffMember[] = [
     study_program_id: "510",
     study_program: "Teknik Elektro",
 
-    photo: "/images/avatar/avatar19.jpg",
+    photo: "/fotoprofile/dosen1.jpg",
 
     address: {
       street: "",
@@ -169,7 +170,7 @@ const dummyDosen: LecturerStaffMember[] = [
     study_program_id: "520",
     study_program: "Manajemen",
 
-    photo: "/images/avatar/avatar20.jpg",
+    photo: "/fotoprofile/dosen1.jpg",
 
     address: {
       street: "",
@@ -217,7 +218,7 @@ const dummyDosen: LecturerStaffMember[] = [
     study_program_id: "530",
     study_program: "Ilmu Hukum",
 
-    photo: "/images/avatar/avatar21.jpg",
+    photo: "/fotoprofile/dosen2.png",
 
     address: {
       street: "",
@@ -265,7 +266,7 @@ const dummyDosen: LecturerStaffMember[] = [
     study_program_id: "540",
     study_program: "Psikologi",
 
-    photo: "/images/avatar/avatar22.jpg",
+    photo: "/fotoprofile/dosen2.png",
 
     address: {
       street: "",
@@ -313,7 +314,7 @@ const dummyDosen: LecturerStaffMember[] = [
     study_program_id: "441",
     study_program: "Teknologi Informasi",
 
-    photo: "/images/avatar/avatar23.jpg",
+    photo: "/fotoprofile/dosen2.png",
 
     address: {
       street: "",
@@ -361,7 +362,7 @@ const dummyDosen: LecturerStaffMember[] = [
     study_program_id: "550",
     study_program: "Matematika",
 
-    photo: "/images/avatar/avatar24.jpg",
+    photo: "/fotoprofile/dosen2.png",
 
     address: {
       street: "",

@@ -25,7 +25,8 @@ const dummyTendik: LecturerStaffMember[] = [
     study_program_id: "1326",
     study_program: "Direktorat Sistem Informasi dan Pengembangan Teknologi",
 
-    photo: "/images/avatar/avatar9.jpg",
+    photo: "/fotoprofile/tendik1.png",
+
 
     address: {
       street: "",
@@ -73,7 +74,7 @@ const dummyTendik: LecturerStaffMember[] = [
     study_program_id: "1326",
     study_program: "Direktorat Sistem Informasi dan Pengembangan Teknologi",
 
-    photo: "/images/avatar/avatar10.jpg",
+    photo: "/fotoprofile/tendik1.png",
 
     address: {
       street: "",
@@ -121,7 +122,7 @@ const dummyTendik: LecturerStaffMember[] = [
     study_program_id: "1326",
     study_program: "Direktorat Sistem Informasi dan Pengembangan Teknologi",
 
-    photo: "/images/avatar/avatar11.jpg",
+    photo: "/fotoprofile/tendik1.png",
 
     address: {
       street: "",
@@ -169,7 +170,7 @@ const dummyTendik: LecturerStaffMember[] = [
     study_program_id: "1330",
     study_program: "Biro Administrasi Umum dan Keuangan",
 
-    photo: "/images/avatar/avatar12.jpg",
+    photo: "/fotoprofile/tendik1.png",
 
     address: {
       street: "",
@@ -217,7 +218,7 @@ const dummyTendik: LecturerStaffMember[] = [
     study_program_id: "1331",
     study_program: "UPT Teknologi Informasi dan Komunikasi",
 
-    photo: "/images/avatar/avatar13.jpg",
+    photo: "/fotoprofile/tendik1.png",
 
     address: {
       street: "",
@@ -265,7 +266,7 @@ const dummyTendik: LecturerStaffMember[] = [
     study_program_id: "1332",
     study_program: "Perpustakaan Universitas Sumatera Utara",
 
-    photo: "/images/avatar/avatar14.jpg",
+    photo: "/fotoprofile/tendik1.png",
 
     address: {
       street: "",
@@ -313,7 +314,7 @@ const dummyTendik: LecturerStaffMember[] = [
     study_program_id: "1333",
     study_program: "Satuan Pengawas Internal",
 
-    photo: "/images/avatar/avatar15.jpg",
+    photo: "/fotoprofile/tendik1.png",
 
     address: {
       street: "",
@@ -361,7 +362,7 @@ const dummyTendik: LecturerStaffMember[] = [
     study_program_id: "1334",
     study_program: "Kantor Humas, Promosi dan Protokoler",
 
-    photo: "/images/avatar/avatar16.jpg",
+    photo: "/fotoprofile/tendik1.png",
 
     address: {
       street: "",

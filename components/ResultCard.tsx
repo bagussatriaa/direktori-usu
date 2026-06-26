@@ -29,8 +29,8 @@ function ResultCard({ member }: ResultCardProps) {
         gap-4
         overflow-hidden
         rounded-3xl
-        border
-        border-zinc-100
+        border-2
+        border-[#f0f0f0]
         bg-white
         p-4
         shadow-[0px_2px_4px_-2px_rgba(40,40,40,0.06),0px_4px_8px_-2px_rgba(40,40,40,0.10)]
@@ -45,8 +45,8 @@ function ResultCard({ member }: ResultCardProps) {
           h-77
           w-full
           rounded-2xl
-          border
-          border-zinc-100
+          border-2
+          border-[#f0f0f0]
           object-cover
         "
       />
@@ -82,8 +82,9 @@ function ResultCard({ member }: ResultCardProps) {
             w-fit
             items-center
             rounded-full
-            border
-            border-green-300
+            border-2
+            border-[#008D19]
+            opacity-70
             px-2
             py-0.5
           "
@@ -94,7 +95,7 @@ function ResultCard({ member }: ResultCardProps) {
               truncate
               text-xs
               leading-4
-              text-green-700
+              text-[#008D19]
             "
             title={badge}
           >
