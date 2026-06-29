@@ -24,6 +24,8 @@ export default function NavBar() {
           </span>
         </Link>
 
+        <SearchSection />
+
       </div>
     </header>
   );
