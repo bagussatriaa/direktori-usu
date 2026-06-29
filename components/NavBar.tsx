@@ -1,21 +1,32 @@
 import Image from "next/image";
+import Link from "next/link";
+
+import SearchSection from "./SearchSection";
 
 export default function NavBar() {
   return (
-    <header className="bg-[#006634] h-16 flex items-center justify-between">
-     <div className="h-full flex items-center gap-3 px-4">
-      <a href="/" className="flex items-center gap-3">
+    <header className="h-16 bg-[#006634]">
+      <div className="flex h-full items-center justify-between pl-7 pr-8">
+        
+        <Link
+          href="/"
+          className="flex items-center gap-3"
+        >
           <Image
             src="/logousu.png"
             alt="Logo USU"
             width={40}
             height={40}
           />
+
           <span className="text-white font-semibold">
             DIREKTORI USU
           </span>
-      </a>  
-     </div>
+        </Link>
+
+        <SearchSection />
+
+      </div>
     </header>
   );
 }

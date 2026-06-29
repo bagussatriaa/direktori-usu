@@ -59,13 +59,13 @@ useEffect(() => {
         rounded-full
         bg-white
         px-5
-        py-2
+        py-1
         text-left
         shadow-md
         border
         ${
         error
-            ? "border-red-500"
+            ? "border-red-700"
             : "border-transparent"
         }
     `}

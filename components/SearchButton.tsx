@@ -14,7 +14,7 @@ export default function SearchButton({
         rounded-full
         bg-[#ffffff]
         px-5
-        py-2
+        py-1
         text-black
         text-center
         font-medium

@@ -23,12 +23,13 @@ export default function SearchInput({
             rounded-full
             bg-white
             px-5
-            py-2
+            py-1
             shadow-md
             border
+            gap-6
             ${
             error
-                ? "border-red-500"
+                ? "border-red-700"
                 : "border-transparent"
             }
         `}
