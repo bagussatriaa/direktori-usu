@@ -5,7 +5,7 @@ const dummyDosen: LecturerStaffMember[] = [
     id: "26794",
     sister_uuid: null,
 
-    front_degree: "",
+    front_degree: "Prof. Dr.",
     full_name: "Muhammad Isa Dadi Hasibuan",
     behind_degree: "S.Kom., M.Kom",
 
@@ -28,15 +28,92 @@ const dummyDosen: LecturerStaffMember[] = [
     photo: "/fotoprofile/dosen1.jpg",
 
     address: {
-      street: "",
-      village: "",
-      subdistrict: "",
-      district: "",
-      province: "",
+      street: "Jl. Universitas No. 12, Kampus USU Padang Bulan",
+      village: "Padang Bulan",
+      subdistrict: "Medan Baru",
+      district: "Medan",
+      province: "Sumatera Utara",
     },
 
-    phone: "",
-    npwp: "",
+    scientific_fields: [
+      "Augmented & Virtual Reality",
+      "Forensik Digital",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision"
+    ],
+
+    research_media: [
+      "/researchmedia/sinta.png",
+      "/researchmedia/scopus.png"
+    ],
+
+    functional: [
+      {
+        position: "Lektor Kepala"
+      }
+    ],
+
+    profile:
+      "Prof. Dr. Muhammad Isa Dadi Hasibuan merupakan dosen aktif di Fakultas Ilmu Komputer dan Teknologi Informasi Universitas Sumatera Utara dengan fokus penelitian pada bidang Artificial Intelligence, Forensik Digital, dan Computer Vision.",
+
+    publications: {
+      national: [
+        {
+          title: "Rancang Bangun Sistem Monitoring IoT untuk Smart Farming",
+          authors: "Muhammad Isa Dadi Hasibuan"
+        }
+      ],
+      international: [
+        {
+          title: "Deep Learning Approach for Image Classification in Agriculture",
+          authors: "Muhammad Isa Dadi Hasibuan, Nur Aisyah"
+        }
+      ]
+    },
+
+    researches: [
+      {
+        title: "Deteksi Dini Penyakit Tanaman Menggunakan CNN",
+        authors: "Muhammad Isa Dadi Hasibuan, Tim Peneliti"
+      }
+    ],
+
+    community_services: [
+      {
+        title: "Pelatihan Digitalisasi UMKM di Desa Tuntungan",
+        description: "Medan - Muhammad Isa Dadi Hasibuan - 2025"
+      }
+    ],
+
+    intellectual_properties: [
+      {
+        title: "Sistem Monitoring Cerdas Berbasis IoT",
+        authors: "Muhammad Isa Dadi Hasibuan"
+      }
+    ],
+
+    courses: [
+      {
+        year: "2026",
+        semester: "Genap",
+        course_name: "Machine Learning",
+        class_name: "A",
+        study_program: "Teknologi Informasi"
+      },
+      {
+        year: "2025",
+        semester: "Genap",
+        course_name: "Digital Forensik",
+        class_name: "B",
+        study_program: "Ilmu Komputer"
+      }
+    ],
+
+    cv_url: "/cv/muhammad-isa-dadi.pdf",
+
+    phone: "081234567890",
+    npwp: "12.345.678.9-012.000",
 
     type: "2",
     type_str: "Dosen Tetap Non PNS",
@@ -45,57 +122,9 @@ const dummyDosen: LecturerStaffMember[] = [
 
     bank_account: [],
     education: [],
-    functional: [],
     rank: [],
-  },
+  
 
-  {
-    id: "26795",
-    sister_uuid: null,
-
-    front_degree: "Dr.",
-    full_name: "Nur Aisyah",
-    behind_degree: "S.Kom., M.Kom.",
-
-    nip: "198805122015042001",
-    nidn: "0012058801",
-    nuptk: "",
-
-    gender: "Perempuan",
-
-    email: "nuraisyah@gmail.com",
-    email_usu: "nur.aisyah@usu.ac.id",
-
-    work_unit_id: "44",
-    work_unit: "FASILKOMTI",
-    work_unit_name: "Fakultas Ilmu Komputer dan Teknologi Informasi",
-
-    study_program_id: "441",
-    study_program: "Ilmu Komputer",
-
-    photo: "/fotoprofile/dosen1.jpg",
-
-
-    address: {
-      street: "",
-      village: "",
-      subdistrict: "",
-      district: "",
-      province: "",
-    },
-
-    phone: "",
-    npwp: "",
-
-    type: "1",
-    type_str: "Dosen PNS",
-
-    status: "Aktif",
-
-    bank_account: [],
-    education: [],
-    functional: [],
-    rank: [],
   },
 
   {
