@@ -6,6 +6,38 @@ export interface DirectoryAddress {
   province: string;
 }
 
+export interface PublicationItem {
+  title: string;
+  authors: string;
+}
+
+export interface ResearchItem {
+  title: string;
+  authors: string;
+}
+
+export interface CommunityServiceItem {
+  title: string;
+  description: string;
+}
+
+export interface IntellectualPropertyItem {
+  title: string;
+  authors: string;
+}
+
+export interface CourseItem {
+  year: string;
+  semester: string;
+  course_name: string;
+  class_name: string;
+  study_program: string;
+}
+
+export interface FunctionalPosition {
+  position: string;
+}
+
 export interface LecturerStaffMember {
   id: string;
   sister_uuid: string | null;
@@ -42,9 +74,27 @@ export interface LecturerStaffMember {
 
   status: string;
 
+  profile?: string;
+
+  publications?: {
+    national?: PublicationItem[];
+    international?: PublicationItem[];
+  };
+
+  scientific_fields?: string[];
+  research_media?: string[];
+
+  researches?: ResearchItem[];
+  community_services?: CommunityServiceItem[];
+  intellectual_properties?: IntellectualPropertyItem[];
+  courses?: CourseItem[];
+
+  cv_url?: string;
+
   bank_account: unknown[];
   education: unknown[];
-  functional: unknown[];
+
+  functional: FunctionalPosition[];
   rank: unknown[];
 }
 

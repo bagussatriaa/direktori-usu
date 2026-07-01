@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import Dropdown from "./DropdownKategori";
+import Dropdown from "../DropdownKategori";
 import SearchInput from "./SearchInput";
 import SearchButton from "./SearchButton";
 import { toast } from "sonner";

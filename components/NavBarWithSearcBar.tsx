@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import SearchSection from "./SearchSection";
+import SearchSection from "./search/SearchSection";
 
 export default function NavBar() {
   return (
