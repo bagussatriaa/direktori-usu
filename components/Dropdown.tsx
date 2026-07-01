@@ -9,6 +9,7 @@ type DropdownProps = {
   value: string;
   onSelect: (value: string) => void;
   error?: string;
+  className?: string;
 };
 
 export default function Dropdown({
