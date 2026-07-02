@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Dropdown from "@/components/Dropdown";
+// import Dropdown from "@/components/Dropdown";
 import type { CourseItem } from "@/types/directory.types";
 
 interface DosenFiltersProps {

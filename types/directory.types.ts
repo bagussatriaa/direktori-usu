@@ -103,7 +103,7 @@ export interface StudentMember {
 
   nim: string;
   name: string;
-
+  email?: string;
   gender: string;
 
   entry_year: string;
